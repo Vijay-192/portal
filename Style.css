@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color: blue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container_f ,.container_s{
+  border: 2px solid #000;
+  height: 50%;
+  /* text-align: center;
+  justify-content: center;
+  display: flex; */
+  width: 40%;
+}
+button{
+  border: none;
+  border-radius: 8px;
+  margin-top: 10%;
+  margin-left: 40%;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+
+  
+}
+button a{
+  color: #000;
+  text-decoration: none;
+}
+button a :hover{
+  color: turquoise;
+  border-color: turquoise;
+}
+.container_f h1 ,.container_s h1{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+}
